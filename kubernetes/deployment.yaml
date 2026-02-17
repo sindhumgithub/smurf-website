@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smurf-go
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: smurf-go
+  template:
+    metadata:
+      labels:
+        app: smurf-go
+    spec:
+      containers:
+      - name: smurf-go
+        image: muddanadevops/smurf-go:latest
+        ports:
+        - containerPort: 80
