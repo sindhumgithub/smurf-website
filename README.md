@@ -20,6 +20,7 @@ It showcases how different DevOps tools integrate seamlessly to enable continuou
 ---
 
 ## 📂 Project Structure
+```
 Terraform/
 │
 ├── eks.tf # To create EKS cluster
@@ -28,7 +29,7 @@ Terraform/
 ├── outputs.tf # Output values
 ├── vpc.tf # VPC Resource creation
 └── README.md # Project documentation
-
+```
 
 ---
 
