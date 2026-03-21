@@ -1,7 +1,7 @@
 # 🚀 Smurfit - Mini Project
 
 ## 📌 Overview
-Smurf & Go is a DevOps-driven web application project that demonstrates the end-to-end implementation of modern deployment practices. The project focuses on containerizing a static web application using Docker, automating build and deployment pipelines with Jenkins, orchestrating containers using Kubernetes (Amazon EKS), and provisioning cloud infrastructure through Terraform.
+Smurf & Go is a application project that demonstrates the end-to-end implementation of modern deployment practices. The project focuses on containerizing a static web application using Docker, automating build and deployment pipelines with Jenkins, orchestrating containers using Kubernetes (Amazon EKS), and provisioning cloud infrastructure through Terraform.
 
 It showcases how different DevOps tools integrate seamlessly to enable continuous integration and continuous deployment (CI/CD), ensuring scalability, reliability, and automation in application delivery.
 
