@@ -23,12 +23,12 @@ It showcases how different DevOps tools integrate seamlessly to enable continuou
 ```
 Terraform/
 │
-├── eks.tf # To create EKS cluster
-├── provider.tf # Provider configuration
-├── variables.tf # Input variables
-├── outputs.tf # Output values
-├── vpc.tf # VPC Resource creation
-└── README.md # Project documentation
+├── eks.tf          # To create EKS cluster
+├── provider.tf     # Provider configuration
+├── variables.tf    # Input variables
+├── outputs.tf      # Output values
+├── vpc.tf          # VPC Resource creation
+└── README.md       # Project documentation
 ```
 
 ---
