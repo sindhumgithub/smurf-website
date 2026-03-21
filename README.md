@@ -38,34 +38,43 @@ Terraform/
 ### 🐳 Docker Setup
 
 Build Docker image:
-
 ```bash
 docker build -t ${DOCKERHUB_USER}/${IMAGE_NAME}:latest app/
 echo $PASS | docker login -u $USER --password-stdin
 docker push ${DOCKERHUB_USER}/${IMAGE_NAME}:latest
-
+```
 ---
 ⚙️ Jenkins Pipeline
+```
 Pipeline stages:
 Checkout code from GitHub
 Build Docker image
 Push image to DockerHub
 Deploy to Kubernetes
+```
 ---
 
 ☸️ Deploy to Kubernetes
+```
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
+```
 ---
 
 🌐 Terraform (EKS Setup)
+```
 terraform init
 terraform apply
+```
 ---
 
 🐳 Docker Setup
+```
 docker build -t smurf-go .
+```
 ---
 
 🔗 Application Access
+```
 smurfit.web.app
+```
