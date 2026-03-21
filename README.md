@@ -29,6 +29,7 @@ Terraform/
 ├── outputs.tf           # Output values
 ├── vpc.tf               # VPC Resource creation
 └── README.md            # Project documentation
+---
 
 ## 🚀 How to Use This Project
 ### 🐳 Docker Setup
@@ -39,7 +40,6 @@ echo $PASS | docker login -u $USER --password-stdin
 docker push ${DOCKERHUB_USER}/${IMAGE_NAME}:latest
 ```
 ---
-
 ⚙️ Jenkins Pipeline
 Pipeline stages:
 Checkout code from GitHub
